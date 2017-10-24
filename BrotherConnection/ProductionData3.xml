@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataMap>
+  <FileName>PDSP</FileName>
+  <Lines>
+    <Line number="1" symbol="L01">
+      <Item name="Language" length="1" type="enum">
+        <EnumValue index="0">NC</EnumValue>
+        <EnumValue index="1">Conversation</EnumValue>
+      </Item>
+    </Line>
+    <Line number="2" symbol="G01">
+      <Item name="G00 Group" length="3" type="number" />
+      <Item name="G17 Group" length="3" type="number" />
+      <Item name="G22 Group" length="3" type="number" />
+      <Item name="G40 Group" length="3" type="number" />
+      <Item name="G49 Group" length="3" type="number" />
+      <Item name="G50 Group" length="3" type="number" />
+      <Item name="G50.1 Group" length="3" type="number" />
+      <Item name="G54 Group" length="3" type="number" />
+      <Item name="G64 Group" length="3" type="number" />
+      <Item name="G69 Group" length="3" type="number" />
+      <Item name="G80 Group" length="3" type="number" />
+      <Item name="G90 Group" length="3" type="number" />
+      <Item name="G94 Group" length="3" type="number" />
+      <Item name="G97 Group" length="3" type="number" />
+      <Item name="G98 Group" length="3" type="number" />
+    </Line>
+    <Line number="3" symbol="M01">
+      <Item name="M05 Group" length="3" type="number" />
+      <Item name="M09 Group" length="3" type="number" />
+      <Item name="M97 Group" length="3" type="number" />
+      <Item name="M141 Group" length="3" type="number" />
+      <Item name="M221 Group" length="3" type="number" />
+      <Item name="M222 Group" length="3" type="number" />
+      <Item name="M223 Group" length="3" type="number" />
+      <Item name="M224 Group" length="3" type="number" />
+      <Item name="M230 Group" length="3" type="number" />
+      <Item name="M239 Group" length="3" type="number" />
+      <Item name="M252 Group" length="3" type="number" />
+      <Item name="M269 Group" length="3" type="number" />
+      <Item name="M270 Group" length="3" type="number" />
+      <Item name="M290 Group" length="3" type="number" />
+      <Item name="M305 Group" length="3" type="number" />
+      <Item name="M401 Group" length="3" type="number" />
+      <Item name="M403 Group" length="3" type="number" />
+      <Item name="M405 Group" length="3" type="number" />
+      <Item name="M407 Group" length="3" type="number" />
+      <Item name="M409 Group" length="3" type="number" />
+      <Item name="M419 Group" length="3" type="number" />
+      <Item name="M431 Group" length="3" type="number" />
+      <Item name="M435 Group" length="3" type="number" />
+      <Item name="M441 Group" length="3" type="number" />
+      <Item name="M443 Group" length="3" type="number" />
+      <Item name="M445 Group" length="3" type="number" />
+      <Item name="M481 Group" length="3" type="number" />
+      <Item name="M483 Group" length="3" type="number" />
+      <Item name="M485 Group" length="3" type="number" />
+      <Item name="M487 Group" length="3" type="number" />
+      <Item name="M495 Group" length="3" type="number" />
+    </Line>
+    <Line number="4" symbol="P01">
+      <Item name="Machine coordinate position (X-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (Y-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (Z-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (4-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (5-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (6-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (7-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (8-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (P1-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (P2-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (P3-Axis)" length="10" type="number"/>
+      <Item name="Machine coordinate position (P4-Axis)" length="10" type="number"/>
+    </Line>
+    <Line number="5" symbol="P02">
+      <Item name="Relative coordinate position (X-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (Y-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (Z-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (4-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (5-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (6-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (7-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (8-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (P1-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (P2-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (P3-Axis)" length="10" type="number"/>
+      <Item name="Relative coordinate position (P4-Axis)" length="10" type="number"/>
+    </Line>
+    <Line number="6" symbol="P03">
+      <Item name="Absolute coordinate position (X-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (Y-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (Z-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (4-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (5-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (6-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (7-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (8-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (P1-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (P2-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (P3-Axis)" length="10" type="number"/>
+      <Item name="Absolute coordinate position (P4-Axis)" length="10" type="number"/>
+    </Line>
+    <Line number="7" symbol="P04">
+      <Item name="Remaining distance (X-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (Y-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (Z-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (4-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (5-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (6-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (7-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (8-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (P1-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (P2-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (P3-Axis)" length="10" type="number"/>
+      <Item name="Remaining distance (P4-Axis)" length="10" type="number"/>
+    </Line>
+    <Line number="8" symbol="X01">
+      <Item name="Feedrate" length="10 type=number" />
+      <Item name="Spindle Speed" length="6" type="numnber" />
+      <Item name="Inner pallet" length="1" type="enum">
+        <EnumValue index="0">Not indexed/QT not mounted</EnumValue>
+        <EnumValue index="1">Inner side pallet 1</EnumValue>
+        <EnumValue index="2">Inner side pallet 2</EnumValue>
+      </Item>
+      <Item name="Spindle tool No." length="2" type="number" />
+      <Item name="Next tool No." length="2" type="number" />
+      <Item name="Pot No." length="2" type="number" />
+      <Item name="Door interlock" length="1" type="enum">
+        <EnumValue index="0">Disabled</EnumValue>
+        <EnumValue index="1">Enabled</EnumValue>
+      </Item>
+      <Item name="Outer door" length="1" type="enum">
+        <EnumValue index="0">Close</EnumValue>
+        <EnumValue index="1">Open</EnumValue>
+      </Item>
+      <Item name="Inner door" length="1" type="enum">
+        <EnumValue index="0">Close</EnumValue>
+        <EnumValue index="1">Open</EnumValue>
+      </Item>
+      <Item name="Side door" length="1" type="enum">
+        <EnumValue index="0">Close</EnumValue>
+        <EnumValue index="1">Open</EnumValue>
+      </Item>
+      <Item name="Rapid traverse override" length="1" type="number" />
+      <Item name="Feedrate override" length="3" type="number" />
+      <Item name="Spindle override" length="3" type="number" />
+    </Line>
+  </Lines>
+</DataMap>

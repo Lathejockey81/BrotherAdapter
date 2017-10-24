@@ -1,0 +1,662 @@
+﻿{
+    "FileName": "PDSP",
+    "Lines": [
+        {
+            "Items": [
+                {
+                    "EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "NC"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Conversation"
+                        }
+                    ],
+                    "Name": "Language",
+                    "Length": "1",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "L01"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "G00 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G17 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G22 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G40 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G49 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G50 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G50.1 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G54 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G64 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G67 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G69 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G80 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G90 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G94 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G97 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "G98 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "2",
+            "Symbol": "G01"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "M05 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M09 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M97 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M141 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M221 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M222 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M223 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M224 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M230 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M239 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M252 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M269 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M270 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M290 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M305 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M401 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M403 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M405 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M407 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M409 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M419 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M431 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M435 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M441 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M443 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M445 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M481 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M483 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M485 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M487 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "M495 Group",
+                    "Length": "3",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "3",
+            "Symbol": "M01"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Machine coordinate position (X-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (Y-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (Z-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (5-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (6-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (7-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (8-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (P1-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (P2-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (P3-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Machine coordinate position (P4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "4",
+            "Symbol": "P01"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Relative coordinate position (X-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (Y-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (Z-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (5-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (6-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (7-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (8-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (P1-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (P2-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (P3-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Relative coordinate position (P4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "5",
+            "Symbol": "P02"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Absolute coordinate position (X-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (Y-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (Z-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (5-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (6-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (7-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (8-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (P1-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (P2-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (P3-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Absolute coordinate position (P4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "6",
+            "Symbol": "P03"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Remaining distance (X-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (Y-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (Z-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (5-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (6-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (7-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (8-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (P1-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (P2-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (P3-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Remaining distance (P4-Axis)",
+                    "Length": "10",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "7",
+            "Symbol": "P04"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Feedrate",
+                    "Length": "10",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Spindle Speed",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+                {
+                    "EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Not indexed/QT not mounted"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Inner side pallet 1"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "Inner side pallet 2"
+                        }
+                    ],
+                    "Name": "Inner pallet",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                {
+                    "Name": "Spindle tool No.",
+                    "Length": "2",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Next tool No.",
+                    "Length": "2",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Pot No.",
+                    "Length": "2",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Door interlock",
+                    "Length": "1",
+                    "Type": "enum",
+                    "EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Disabled"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Enabled"
+                        }
+                    ]
+                },
+                {
+                    "EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Close"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Open"
+                        }
+                    ],
+                    "Name": "Outer door",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                {
+                    "EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Close"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Open"
+                        }
+                    ],
+                    "Name": "Inner door",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                {
+                    "EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Close"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Open"
+                        }
+                    ],
+                    "Name": "Side door",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                {
+                    "Name": "Rapid traverse override",
+                    "Length": "1",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Feedrate override",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Spindle override",
+                    "Length": "3",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "8",
+            "Symbol": "X01"
+        }
+    ]
+}
