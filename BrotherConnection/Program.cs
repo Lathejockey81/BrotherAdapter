@@ -26,8 +26,9 @@ namespace BrotherConnection
 
                 var rawData = req.Send().Split(new String[] { "\r\n" },StringSplitOptions.None);
 
-                //Console.Write(req.Send());
+                Console.Write(req.Send());
 
+                //*
                 foreach (var line in prodData3Map.Lines)
                 {
                     var rawLine = rawData[line.Number].Split(',');
@@ -46,7 +47,71 @@ namespace BrotherConnection
                             }
                         }
                     }
-                }
+                } //*/
+
+                /*
+                var filesToLoad = new List<String>
+                {
+                    "POSNI#",
+                    "POSSI#",
+                    "TOLSI#",
+                    "MCRNI#",
+                    "MCRSI#",
+                    "EXIO#",
+                    "ATCTL",
+                    "GCOMT",
+                    "CSTPL1",
+                    "CSTTP1",
+                    "SYSC99",
+                    "SYSC98",
+                    "SYSC97",
+                    "SYSC96",
+                    "SYSC95",
+                    "SYSC94",
+                    "SYSC89",
+                    "PRD1",
+                    "PRDC2",
+                    "PRD3",
+                    "MAINTC",
+                    "WKCNTR",
+                    "MSRRSC",
+                    "PAINT",
+                    "WVPRM",
+                    "PLCDAT",
+                    "PLCMON",
+                    "SHTCUT",
+                    "IO",
+                    "MEM",
+                    "PANEL",
+                    "PDSP",
+                    "VER",
+                    "LOG",
+                    "LOGBK",
+                    "ALARM",
+                    "OPLOG",
+                    "PRTCTC"
+                };
+
+                foreach (var file in filesToLoad)
+                {                    
+                    if (file.Contains("#"))
+                    {
+                        for (int i = 0; i <= 10 ; i++)
+                        {
+                            var toLoad = file.Replace('#', i.ToString().Last()); // 0 is 10, not 0
+                            req.Arguments = toLoad;
+                            File.WriteAllText(toLoad + ".RAW", req.Send());
+                            Console.WriteLine($"Loaded {toLoad}");
+                        }
+                    }
+                    else
+                    {
+                        req.Arguments = file;
+                        File.WriteAllText(file + ".RAW", req.Send());
+                        Console.WriteLine($"Loaded {file}");
+                    }
+                    Thread.Sleep(500);
+                } //*/
 
                 //req.Arguments = "PANEL";
                 //Console.Write(req.Send());
@@ -59,10 +124,13 @@ namespace BrotherConnection
                 //req.Arguments = "MCRNI1";
                 //Console.Write(req.Send());
 
+                //*
                 foreach (var decode in DecodedResults)
                 {
                     Console.WriteLine($"{decode.Key}: {decode.Value}");
-                }
+                } //*/
+
+                //throw new NotImplementedException();
 
                 Thread.Sleep(2000);
             }
